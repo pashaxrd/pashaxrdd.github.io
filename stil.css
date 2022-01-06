@@ -1,0 +1,77 @@
+body,h1,ul,li{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background:url(images/pattern.png) #B3B33F;
+    font-family: sans-serif;
+}
+ 
+.sayfa{
+    width: 950px;
+    margin:50px auto;
+}
+ 
+#baslik{
+    float: center;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+ 
+#menu{
+    float: left;
+    list-style: none;
+    margin-top: 1em;
+}
+ 
+#menu li{
+    float: left;
+    
+}
+ 
+#menu li a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px 20px;
+}
+ 
+#menu a:hover{
+    background: #B3B33F;
+    border-radius: 15px;
+}
+ 
+.orta{
+    margin-top: 15px;
+    background: #B3B33F;
+ 
+}
+ 
+.orta-sol{
+    float: left;
+    width: 450px;
+}
+ 
+ 
+.orta-sag{
+    float: left;
+    margin: 15px;
+    width: 470px;
+    color: #fff;
+}
+ 
+.alt{
+    background: #555;
+    padding: 20px;
+    text-align: center;
+    color: #B3B33F;
+}
+.alt a{
+     color: #B3B33F;
+}
+ 
+.temizle{
+    clear: both;
+}
